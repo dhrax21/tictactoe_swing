@@ -4,7 +4,9 @@ Sure, here is a summary for a Tic-Tac-Toe game created in Java:
 
 ### Summary: Tic-Tac-Toe Game in Java
 
-This project implements a classic Tic-Tac-Toe game using Java. The game allows two players to compete against each other in a 3x3 grid. The objective is for one player to place three of their marks (X or O) in a horizontal, vertical, or diagonal row to win the game. The project includes the following key components:
+This project implements a classic Tic-Tac-Toe game using Java. The game allows two players to compete against each other in a 3x3 grid.![Screenshot 2024-05-30 094414](https://github.com/dhrax21/tictactoe_swing/assets/112228200/ebe65140-a64c-42ec-9f22-792654b0d236)
+ The objective is for one player to place three of their marks (X or O) in a horizontal, vertical, or diagonal row to win the game. The project includes the following key components:
+
 
 1. **Game Board**:
    - The game board is represented as a 3x3 matrix.
@@ -18,11 +20,15 @@ This project implements a classic Tic-Tac-Toe game using Java. The game allows t
    - The game checks for a win condition after each move by examining the rows, columns, and diagonals.
    - It also checks for a draw condition when all spots are filled without any player winning.
    - Appropriate messages are displayed to announce the winner or if the game ends in a draw.
+![Screenshot 2024-05-30 094439](https://github.com/dhrax21/tictactoe_swing/assets/112228200/6ab502d1-4708-46ab-9d28-f16095af6186)
 
 4. **Game Flow**:
    - The game starts with an empty board and alternates turns between the two players.
    - After each move, the board state is updated and displayed.
    - The game continues until a win or draw condition is met.
+  
+     ![Screenshot 2024-05-30 094453](https://github.com/dhrax21/tictactoe_swing/assets/112228200/2c8efc5e-43c1-4eb3-ae6a-99b0ac67c0e3)
+
 
 5. **Error Handling**:
    - The game handles invalid inputs, such as out-of-bounds coordinates or attempts to place a mark in an already occupied cell.
